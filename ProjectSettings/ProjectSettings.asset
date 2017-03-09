@@ -473,7 +473,7 @@ PlayerSettings:
     Collab: 0
     ErrorHub: 0
     Hub: 0
-    UNet: 0
+    UNet: 1
   cloudProjectId: 412a2a55-02fa-46ef-a5ec-3c0354c06e33
   projectName: 3dMultiplayer (1)
   organizationId: dobryi_vechir
