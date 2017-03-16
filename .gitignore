@@ -29,3 +29,12 @@ sysinfo.txt
 *.apk
 *.unitypackage
 Assets/Standard Assets/
+Assets/FantasyMonster/
+*.unity
+*.fbx
+Assets/PopupAsylum/
+*.mat
+*.meta
+*.tga
+*.psd
+*.png

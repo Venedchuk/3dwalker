@@ -38,9 +38,9 @@ public class MoveMouse : MonoBehaviour
             //  (чем дальше от центра экрана тем сильнее поворот)
             // и умножаем угол на чуствительность из параметров
             MyAngle = sensitivity * ((MousePos.x - (Screen.width / 2)) / Screen.width);
-            goCamera.transform.RotateAround(go.transform.position, goCamera.transform.up, MyAngle);
+            goCamera.transform.RotateAround(go.transform.position, goCamera.transform.up, 0);
             MyAngle = sensitivity * ((MousePos.y - (Screen.height / 2)) / Screen.height);
-            goCamera.transform.RotateAround(go.transform.position, goCamera.transform.right, -MyAngle);
+            goCamera.transform.RotateAround(go.transform.position, goCamera.transform.right, -0);
         }
     }
 }
